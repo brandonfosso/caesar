@@ -3,11 +3,11 @@
 # Character space:
 alph = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
 
-plain = "ABC" # Plain text as a string
+plain = raw_input('Enter your plain text: ') # User Plaintext
 
-shift = 1 # Standard shift
+shift = int(raw_input('Enter the desired shift: ')) # User shift, convert to int
 
-cipher = "" # Cipher text starts as empty string
+cipher = "" # Ciphertext starts as empty string
 
 for i in plain:
 	if i in alph:
@@ -19,6 +19,7 @@ for i in plain:
 	# print cipher # Watch it being built up 
 
 # Nice output:
-print "Plain Text:", plain
+print "..."
+print "Plaintext:", plain
 print "Shift:", shift
-print "Cipher Text:", cipher
+print "Ciphertext:", cipher
