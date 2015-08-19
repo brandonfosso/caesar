@@ -10,10 +10,13 @@ shift = 3 # Standard shift
 cipher = "" # Cipher text starts as empty string
 
 for i in plain:
-	cipher += i
+	cipher += alph[alph.index(i) + shift]
 	print cipher 
 
 # print plain[2]
 # print alph.index('A')
 # print alph.index(plain[1])
 # print plain, shift
+
+
+# Result should be WHVW
