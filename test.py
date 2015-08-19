@@ -1,4 +1,8 @@
-# A place for me to play
+# Ceaser Cipher Python implementation
+# Brandon Fosso
+# 18/9/2015
+
+import time
 
 # Character space:
 alph = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
@@ -18,8 +22,16 @@ for i in plain:
 
 	# print cipher # Watch it being built up 
 
+# Thinking delay:
+time.sleep(1)
+print "."
+time.sleep(1)
+print " ."
+time.sleep(1)
+print "  ."
+time.sleep(1)
+
 # Nice output:
-print "..."
 print "Plaintext:", plain
 print "Shift:", shift
 print "Ciphertext:", cipher
