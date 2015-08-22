@@ -15,9 +15,14 @@ shift = int(raw_input('Enter the desired shift: ')) # User shift, convert to int
 cipher = "" # Ciphertext starts as empty string
 
 for i in plain:
-	if i in alph:
-		cipher += alph[(alph.index(i) + shift) % len(alph)] 
+	if i in big_alph:
+		cipher += big_alph[(big_alph.index(i) + shift) % len(big_alph)] 
 		# Determine character index, add shift, wrap, determine new character
+		# For capital letters
+	elif i in small_alph:
+		cipher += small_alph[(small_alph.index(i) + shift) % len(small_alph)]
+		# Determine character index, add shift, wrap, determine new character
+		# For small letters
 	else:
 		cipher += i # Leave non-letter characters alone
 
