@@ -29,13 +29,17 @@ for i in plain:
 	# print cipher # Watch it being built up 
 
 # Thinking delay:
-time.sleep(1)
-print "."
-time.sleep(1)
-print " ."
-time.sleep(1)
-print "  ."
-time.sleep(1)
+#time.sleep(1)
+#print "."
+#time.sleep(1)
+#print " ."
+#time.sleep(1)
+#print "  ."
+#time.sleep(1)
+
+time.sleep(0.5)
+print "thinking ... :)"
+time.sleep(0.5)
 
 # Nice output:
 print "Plaintext: ", plain
