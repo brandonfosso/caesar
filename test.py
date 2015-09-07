@@ -38,6 +38,6 @@ print "  ."
 time.sleep(1)
 
 # Nice output:
-print "Plaintext:", plain
+print "Plaintext: ", plain
 print "Shift:", shift
 print "Ciphertext:", cipher
