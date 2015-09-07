@@ -48,6 +48,6 @@ print "thinking ... :)"
 time.sleep(0.5)
 
 # Nice output:
-# print "Plaintext: ", plain
-# print "Shift:", shift
-print "Your enchiphered text:", cipher
+print "Plaintext: ", plain
+print "Shift:", shift
+print "Ciphertext:", cipher
