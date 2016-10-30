@@ -1,4 +1,4 @@
-# Ceaser Cipher Python implementation
+# Caeser Cipher Python implementation
 # Brandon Fosso
 # 18/9/2015
 
